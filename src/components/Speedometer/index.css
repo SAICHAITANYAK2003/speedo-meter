@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #07080c;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25vw;
+  margin-top: 20px;
+}
+.image {
+  height: 40vh;
+  width: 90vh;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-style: italic;
+  font-size: 50px;
+}
+.count-heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.description {
+  color: #cbd5e1;
+  font-size: 25px;
+}
+.acc-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.break-button {
+  color: #ffffff;
+  background-color: black;
+  height: 50px;
+  width: 120px;
+  border: 2px solid #94a3b8;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
